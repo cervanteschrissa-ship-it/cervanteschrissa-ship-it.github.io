@@ -129,10 +129,4 @@ footer { text-align: center; color: var(--muted); padding: 2rem 1rem 3rem; borde
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-/* call-to-action band */
-main > section.cta {
-  max-width: none; text-align: center;
-  background: linear-gradient(120deg, color-mix(in srgb, var(--rose) 45%, var(--bg)), color-mix(in srgb, var(--lav) 45%, var(--bg)));
-}
-.cta h2 { font-size: clamp(2rem, 5vw, 3rem); }
-.cta p { margin: 0 auto 1.5rem; }
+.build { margin: 0 0 .5rem; }
