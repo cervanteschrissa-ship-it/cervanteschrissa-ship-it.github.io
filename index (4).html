@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chrissa Mae B. Cervantes | Portfolio</title>
+  <meta name="description" content="Portfolio of Chrissa Mae B. Cervantes. Web development and UI design projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#top">Chrissa Cervantes</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" type="button" aria-label="Switch light or dark theme">Dark</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hello">Hi, I'm</p>
+        <h1>Chrissa Mae B. Cervantes</h1>
+        <p class="lead">Student building web pages and designing clean, easy-to-use interfaces.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">See my projects</a>
+          <a class="btn ghost" href="resume.pdf">Download resume</a>
+        </div>
+      </div>
+      <div class="avatar-wrap">
+        <div class="avatar">
+          <!-- Put your photo in the repo as photo.jpg. Until then, initials show. -->
+          <img src="photo.jpg" alt="Photo of Chrissa" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'CM'}))">
+        </div>
+        <div class="badge">
+          <span class="badge-icon" aria-hidden="true">&lt;/&gt;</span>
+          <div>
+            <strong>PUP Main</strong>
+            <span>BSIT 3-1 Student</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>I am Chrissa Mae B. Cervantes, an Information Technology student at the Polytechnic University of the Philippines. I have practical experience in web development, user interface design, and programming. I am seeking an internship or entry-level position where I can apply my skills and continue to learn.</p>
+      <h3>Skills</h3>
+      <ul class="pills">
+        <li>UI design</li><li>Prototyping</li><li>Visual design</li>
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Laravel Blade</li>
+        <li>Java</li><li>C</li><li>C#</li><li>Python</li><li>COBOL</li><li>Git</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list" class="grid"></div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">August 2023</p>
+          <h3>Cashier, Snack Food Stall</h3>
+          <p>Brgy. San Antonio, Los Baños. Handled customer orders and payments, prepared milk tea, and cooked snacks such as burgers and fries.</p>
+        </li>
+        <li>
+          <p class="when">Volunteer work</p>
+          <h3>Youth Volunteer, Youth for Christ (YFC)</h3>
+          <p>Participated in youth camps and activities, helped lead activities, and supported and cared for fellow participants.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="cta" aria-label="Call to action">
+      <h2>Let's build something</h2>
+      <p>Have a project or an opportunity in mind? I'd like to hear about it.</p>
+      <a class="btn" href="#contact">Get in touch</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Open to internships and entry-level roles in web development and UI design.</p>
+      <div class="actions">
+        <a class="btn" href="mailto:Cervanteschrissa@gmail.com">Email me</a>
+        <a class="btn ghost" href="https://github.com/cervanteschrissa-ship-it">GitHub</a>
+        <a class="btn ghost" href="https://www.facebook.com/issssssyy">Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Chrissa Mae B. Cervantes</footer>
+  <script src="script.js"></script>
+</body>
+</html>
